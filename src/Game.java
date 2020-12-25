@@ -41,7 +41,7 @@ public class Game {
                 if (reset.equals("y")) {
                     story.resetStory();
                     manager = new Character(name);
-                    System.out.println("\n");
+                    System.out.println("До свидания, " + manager.name + "!\n");
                     continue;
                 } else {
                     return;
